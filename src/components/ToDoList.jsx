@@ -1,19 +1,8 @@
-import ToDoCard from "./ToDoCard"
+import React from 'react'
 
-const ToDoList = (props) => {
-  const {todos} = props
+const ToDoList = () => {
   return (
-    <ul>
-      {todos.map((todo, todoIndex)=>{
-        return(
-          <ToDoCard key={todoIndex}>
-          <p>{todo}</p>
-        </ToDoCard>
-        )
-
-      })
-      }
-    </ul>
+    <div>ToDoList</div>
   )
 }
 

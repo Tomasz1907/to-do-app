@@ -1,10 +1,8 @@
+import React from 'react'
 
 const ToDoInput = () => {
   return (
-    <div>
-      <input type="text" />
-      <button><i className="fa-solid fa-arrow-right"></i></button>
-    </div>
+    <div>ToDoInput</div>
   )
 }
 
